@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2023-07-12T10:52:16.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="X9jl_Jfz9CssuvtY2yBz" version="21.6.2" type="github">
+  <diagram name="Page-1" id="16qIxH66MZdJ7L14AVtk">
+    <mxGraphModel dx="1726" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-3" value="Party Management UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-4" value="PlayerInfoSO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-5" value="Get Walker Inventory" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SmeRQ66XFrRzRs4D6klU-3" target="SmeRQ66XFrRzRs4D6klU-4">
+          <mxGeometry y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="380" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-6" value="Party Inventory UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-7" value="Pop Up" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SmeRQ66XFrRzRs4D6klU-3" target="SmeRQ66XFrRzRs4D6klU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="320" as="sourcePoint" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-8" value="Party Inventory Item Card" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-9" value="Generates" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmeRQ66XFrRzRs4D6klU-6" target="SmeRQ66XFrRzRs4D6klU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="430" as="sourcePoint" />
+            <mxPoint x="340" y="460" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-10" value="Item Card Object" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SmeRQ66XFrRzRs4D6klU-8" target="SmeRQ66XFrRzRs4D6klU-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="430" as="sourcePoint" />
+            <mxPoint x="500" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-11" value="On Item Selected" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-14" value="Item Card Object" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SmeRQ66XFrRzRs4D6klU-11" target="SmeRQ66XFrRzRs4D6klU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="550" as="sourcePoint" />
+            <mxPoint x="122" y="494" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-15" value="On Inventory Changed" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-16" value="List&amp;lt;InventoryItem&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SmeRQ66XFrRzRs4D6klU-6" target="SmeRQ66XFrRzRs4D6klU-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="370" as="sourcePoint" />
+            <mxPoint x="120" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SmeRQ66XFrRzRs4D6klU-17" value="List&amp;lt;InventoryItem&amp;gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.931;exitY=-0.01;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="SmeRQ66XFrRzRs4D6klU-15" target="SmeRQ66XFrRzRs4D6klU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="250" as="sourcePoint" />
+            <mxPoint x="140" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
